@@ -1,0 +1,9 @@
+﻿A,,B,,
+B,,A,C,
+C,,B,D,G
+D,,C,E,
+E,,D,F,
+F,,E,I,
+G,green,C,H,
+H,red,G,I,
+I,green,H,F,
