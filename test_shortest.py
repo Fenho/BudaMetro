@@ -47,13 +47,6 @@ class TestShortest(unittest.TestCase):
         posible_answers = ["A->B->D->E", "A->B->F->E"]
         self.assertIn(visited_str, posible_answers)
 
-    def test_second_three_connections(self):
-        network_descriptor = "./Networks/second_example.csv"
-        start, end = "A", "I"
-        color = "green"
-        visited_str = test_helper(network_descriptor, start, end, color)
-        self.assertEqual(visited_str, "A->B->F->I")
-
     def test_second_red(self):
         network_descriptor = "./Networks/second_example.csv"
         start, end = "A", "I"
